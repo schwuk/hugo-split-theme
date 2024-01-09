@@ -11,8 +11,10 @@ This Hugo theme features an image or video visual section as well as a content s
 
 Inside the folder of your Hugo site run:
 
-    $ cd themes
-    $ git clone https://github.com/escalate/hugo-split-theme.git
+```bash
+$ cd themes
+$ git clone https://github.com/escalate/hugo-split-theme.git
+```
 
 For more information read the official [setup guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
 
@@ -24,7 +26,7 @@ After installing the Split theme successfully it requires a just a few more step
 
 ### The config file
 
-Take a look inside the [`exampleSite`](//github.com/escalate/hugo-split-theme/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/escalate/hugo-split-theme/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](//github.com/escalate/hugo-split-theme/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to customize this theme as you like.
+Take a look inside the [`tests`](//github.com/escalate/hugo-split-theme/tree/master/tests) folder of this theme. You'll find some example configurations. To use one of them, copy the `config.toml` in the root folder of your Hugo site. Feel free to customize this theme as you like.
 
 
 ### Add content
@@ -33,9 +35,9 @@ Take a look inside the [`exampleSite`](//github.com/escalate/hugo-split-theme/tr
 
 Add a file named `_index.md` inside content directory to create your homepage. Use TOML configuration elements to set `title` and `tagline` of your page. Simple write your content in markdown style.
 
-
-    $ hugo new content/_index.md
-
+```bash
+$ hugo new content/_index.md
+```
 
 ```markdown
 +++
@@ -51,9 +53,9 @@ Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce
 
 You can create additional pages as usual inside content directory.
 
-
-    $ hugo new content/luctus-urna.md
-
+```bash
+$ hugo new content/luctus-urna.md
+```
 
 ```markdown
 +++
