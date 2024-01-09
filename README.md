@@ -181,7 +181,7 @@ favicon = "favicon.ico"
 Set `copyright` with the text you want for your copyright.
 
 ```toml
-copyright = "&copy;2021 Your Name"
+copyright = "&copy;2024 Your Name"
 ```
 
 
@@ -198,7 +198,9 @@ googleAnalytics = "UA-XXXXXXXX-1"
 
 In order to see your site in action, run Hugo's built-in local server.
 
-    $ hugo server
+```bash
+$ hugo server
+```
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
