@@ -4,6 +4,7 @@ languageCode = "en-US"
 title = "Split - HTML Template Demo"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
 
 # Local preview mode
 relativeURLs = true
