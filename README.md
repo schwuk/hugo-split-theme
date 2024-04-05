@@ -26,8 +26,7 @@ After installing the Split theme successfully it requires a just a few more step
 
 ### The config file
 
-Take a look inside the [`tests`](//github.com/escalate/hugo-split-theme/tree/master/tests) folder of this theme. You'll find some example configurations. To use one of them, copy the `config.toml` in the root folder of your Hugo site. Feel free to customize this theme as you like.
-
+Take a look inside the [`tests`](//github.com/escalate/hugo-split-theme/tree/master/tests) folder of this theme. You'll find some example configurations. To use one of them, copy the `hugo.toml` in the root folder of your Hugo site. Feel free to customize this theme as you like.
 
 ### Add content
 
