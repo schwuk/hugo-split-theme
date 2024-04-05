@@ -45,7 +45,7 @@ title = "Jenny Jones"
 tagline = "Designer. Stylist. Nomad."
 +++
 
-Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna]({{< ref "luctus-urna.md" >}}) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in]({{< ref "ipsum-in.md" >}}) malesuada congue, [purus sem]({{< ref "purus-sem.md" >}}) ullamcorper massa, sit amet lacinia nibh enim sed massa.
+Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna]({{< ref "long-text.md" >}}) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in]({{< ref "commonmark.md" >}}) malesuada congue, purus sem ullamcorper massa, sit amet lacinia nibh enim sed massa.
 ```
 
 
@@ -54,12 +54,12 @@ Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce
 You can create additional pages as usual inside content directory.
 
 ```bash
-$ hugo new content/luctus-urna.md
+$ hugo new content/long-text.md
 ```
 
 ```markdown
 +++
-title = "luctus urna"
+title = "Long Text"
 +++
 
 Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc.

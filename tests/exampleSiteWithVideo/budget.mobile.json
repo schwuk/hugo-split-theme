@@ -7,7 +7,7 @@
             "total": 2048000
         },
         "thirdParty": {
-            "requests": 4
+            "requests": 5
         },
         "score": {
             "bestpractice": 93,

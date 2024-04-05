@@ -4,10 +4,10 @@
             "total": 9
         },
         "transferSize": {
-            "total": 323584
+            "total": 324608
         },
         "thirdParty": {
-            "requests": 4
+            "requests": 5
         },
         "score": {
             "bestpractice": 93,
