@@ -50,8 +50,7 @@ jobs:
 
       - name: Run sitespeed.io for example site with image in desktop mode
         run: |
-          rm --recursive --force tests/exampleSiteWithImage/sitespeed-result
-          docker compose --file tests/exampleSiteWithImage/docker-compose.desktop.yml up --exit-code-from sitespeed
+          make sitespeed-io-example-site-with-image-desktop-mode
 
       - name: Upload sitespeed.io result for example site with image in desktop mode
         uses: actions/upload-artifact@v4
@@ -61,8 +60,7 @@ jobs:
 
       - name: Run sitespeed.io for example site with image in mobile mode
         run: |
-          rm --recursive --force tests/exampleSiteWithImage/sitespeed-result
-          docker compose --file tests/exampleSiteWithImage/docker-compose.mobile.yml up --exit-code-from sitespeed
+          make sitespeed-io-example-site-with-image-mobile-mode
 
       - name: Upload sitespeed.io result for example site with image in mobile mode
         uses: actions/upload-artifact@v4
@@ -72,8 +70,7 @@ jobs:
 
       - name: Run sitespeed.io for example site with video in desktop mode
         run: |
-          rm --recursive --force tests/exampleSiteWithVideo/sitespeed-result
-          docker compose --file tests/exampleSiteWithVideo/docker-compose.desktop.yml up --exit-code-from sitespeed
+          make sitespeed-io-example-site-with-video-desktop-mode
 
       - name: Upload sitespeed.io result for example site with video in desktop mode
         uses: actions/upload-artifact@v4
@@ -83,8 +80,7 @@ jobs:
 
       - name: Run sitespeed.io for example site with video in mobile mode
         run: |
-          rm --recursive --force tests/exampleSiteWithVideo/sitespeed-result
-          docker compose --file tests/exampleSiteWithVideo/docker-compose.mobile.yml up --exit-code-from sitespeed
+          make sitespeed-io-example-site-with-video-mobile-mode
 
       - name: Upload sitespeed.io result for example site with video in mobile mode
         uses: actions/upload-artifact@v4
