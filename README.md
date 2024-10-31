@@ -210,7 +210,7 @@ Enable Google Analytics by adding your tracking id to `services.googleAnalytics`
 
 ### Support author and remove credit
 
-To remove this credit you can remove the CC3.0 license for only $9 here: [https://onepagelove.com/split].
+To remove this credit you can remove the CC3.0 license for only $9 here: https://onepagelove.com/split.
 This really helps contribute towards us developing more templates and means the world to me!
 Cheers, Rob (@robhope)
 
