@@ -1,31 +1,4 @@
 //-------------------------------------------------------------------------------
-// Google Font Import
-//-------------------------------------------------------------------------------
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
-@import url('https://fonts.googleapis.com/css?family=Lora');
-
-//-------------------------------------------------------------------------------
-// Variables
-//-------------------------------------------------------------------------------
-
-// Colors
-$color-background : #061C30;
-$color-text       : #848d96;
-$color-link       : #848d96;
-$color-link-hover : #CA486d;
-$color-maverick   : #47bec7;
-$color-tagline    : #CCCCCC;
-
-// Breakpoints
-$bp-smallish      : 1200px;
-$bp-tablet        : 800px;
-$bp-mobile        : 500px;
-
-// Images
-// $image-background : url('../../images/background.jpg');
-
-//-------------------------------------------------------------------------------
 // Fade In
 //-------------------------------------------------------------------------------
 
@@ -50,7 +23,7 @@ body.page-template-page-fullsingle-split {
   line-height: 33px;
   letter-spacing: -0.2px;
   color: $color-text;
-  animation: fadein 2s;
+  animation: $animation-name $animation-duration;
 
   //-------------------------------------------------------------------------------
   // Global Styles
@@ -83,8 +56,8 @@ body.page-template-page-fullsingle-split {
   .split-image {
     width: 50%;
     height: 100vh;
-    // background-image: $image-background;
-    // background-position:center center;
+    background-image: $image-background;
+    background-position: $image-position;
     background-size:cover;
 
     @media (max-width: $bp-tablet ) {
@@ -310,6 +283,11 @@ body.page-template-page-fullsingle-split {
   dl dd {
     margin-bottom: 10px;
   }
+
+  blockquote {
+    padding-left: 0.5em;
+    border-left: 3px solid $color-text;
+  }
 }
 
 //-------------------------------------------------------------------------------
@@ -370,8 +348,8 @@ body.page-template-page-fullsingle-split {
 // Credit
 //-------------------------------------------------------------------------------
 
-//  To edit this credit you can remove the CC3.0 license for only $5 here: https://onepagelove.com/split
-//  this really helps contribute towards us developing more templates and means the world to me!
+//  To remove this credit you can remove the CC3.0 license for only $9 here: https://onepagelove.com/split
+//  This really helps contribute towards us developing more templates and means the world to me!
 //  Cheers, Rob (@robhope)
 
 .split-credit {
