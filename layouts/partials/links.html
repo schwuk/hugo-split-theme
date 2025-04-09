@@ -8,7 +8,7 @@
         <h3 class="text-block">{{ $list.heading }}</h3>
         <ul class="list w-list-unstyled">
           {{ range $list.link }}
-            <li><a href="{{ .url | safeURL }}" target="{{ cond (.new_tab | default false) "_blank" "_self" }}">{{ .text }}</a></li>
+            <li><a href="{{ .url | safeURL }}" target="{{ cond (.new_tab | default false) "_blank" "_self" }}"{{ if .rel }} rel="{{ .rel }}" {{ end }}>{{ .text }}</a></li>
           {{ end }}
         </ul>
       </div>
